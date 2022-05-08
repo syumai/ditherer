@@ -1,13 +1,13 @@
 {
   "name": "ditherer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A CLI tool to convert image into dithered image.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "bin": "./index.js",
   "author": "syumai",
   "license": "MIT",
+  "repository": "https://github.com/syumai/ditherer",
+  "homepage": "https://github.com/syumai/ditherer",
   "dependencies": {
     "floyd-steinberg": "^1.0.6",
     "pngjs": "^6.0.0"
