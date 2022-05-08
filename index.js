@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const floydSteinberg = require("floyd-steinberg");
 const { PNG } = require("pngjs");
 const { stdin, stdout } = require("process");
